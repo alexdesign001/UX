@@ -1,0 +1,1215 @@
+/* exported css for soft-ui-kit.psd */
+
+
+body,html { width:100%;height:100%; }
+div>img { width:100%;height:100%; }
+
+
+body { margin: 0px; padding:0px; background: hsl(229, 47%, 9%); }
+
+
+.wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+.softuikit_bg {
+    position: absolute;
+    top:    0rem;
+    left:   0rem;
+    height: 6.41rem;
+    width:  8.84rem;
+    background: url(../imgs/soft-ui-kit_bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_pattern {
+    position: absolute;
+    top:    0rem;
+    left:   0rem;
+    height: 6.41rem;
+    width:  8.84rem;
+    background: url(../imgs/soft-ui-kit_pattern.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_track {
+    position: absolute;
+    top:    5.83rem;
+    left:   3.17rem;
+    height: 0.16rem;
+    width:  5.25rem;
+    background: url(../imgs/soft-ui-kit_track.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_handle {
+    position: absolute;
+    top:    5.83rem;
+    left:   3.17rem;
+    height: 0.16rem;
+    width:  1.35rem;
+    background: url(../imgs/soft-ui-kit_handle.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_track {
+    position: absolute;
+    top:    0.38rem;
+    left:   8.26rem;
+    height: 5.15rem;
+    width:  0.16rem;
+    background: url(../imgs/soft-ui-kit_track.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_handle {
+    position: absolute;
+    top:    0.38rem;
+    left:   8.26rem;
+    height: 1.87rem;
+    width:  0.16rem;
+    background: url(../imgs/soft-ui-kit_handle.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_textarea {
+    position: absolute;
+    top:    2.63rem;
+    left:   5.26rem;
+    height: 2.43rem;
+    width:  2.67rem;
+    background: url(../imgs/soft-ui-kit_textarea.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Curabitur vulputate, ligula lacinia scelerisque bibendum. Phase {
+    position: absolute;
+    top:    2.8rem;
+    left:   5.4rem;
+    height: 2.09rem;
+    width:  2.28rem;
+    background: url(../imgs/soft-ui-kit_Curabitur vulputate, ligula lacinia scelerisque bibendum. Phase.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_track {
+    position: absolute;
+    top:    2.68rem;
+    left:   7.74rem;
+    height: 2.28rem;
+    width:  0.09rem;
+    background: url(../imgs/soft-ui-kit_track.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_bar {
+    position: absolute;
+    top:    2.68rem;
+    left:   7.74rem;
+    height: 1.28rem;
+    width:  0.09rem;
+    background: url(../imgs/soft-ui-kit_bar.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_frame {
+    position: absolute;
+    top:    2.55rem;
+    left:   5.18rem;
+    height: 2.99rem;
+    width:  2.77rem;
+    background: url(../imgs/soft-ui-kit_frame.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Leave a Comment {
+    position: absolute;
+    top:    5.2rem;
+    left:   5.41rem;
+    height: 0.12rem;
+    width:  1.06rem;
+    background: url(../imgs/soft-ui-kit_Leave a Comment.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button {
+    position: absolute;
+    top:    5.12rem;
+    left:   7.22rem;
+    height: 0.23rem;
+    width:  0.55rem;
+    background: url(../imgs/soft-ui-kit_button.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_save {
+    position: absolute;
+    top:    5.22rem;
+    left:   7.37rem;
+    height: 0.09rem;
+    width:  0.28rem;
+    background: url(../imgs/soft-ui-kit_save.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.87rem;
+    left:   6.57rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.87rem;
+    left:   6.81rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.87rem;
+    left:   7.05rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.87rem;
+    left:   7.29rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.87rem;
+    left:   7.53rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_star {
+    position: absolute;
+    top:    1.57rem;
+    left:   7.53rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.57rem;
+    left:   6.57rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.57rem;
+    left:   6.81rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.57rem;
+    left:   7.05rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.57rem;
+    left:   7.29rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_star {
+    position: absolute;
+    top:    1.27rem;
+    left:   7.29rem;
+    height: 0.21rem;
+    width:  0.47rem;
+    background: url(../imgs/soft-ui-kit_star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.27rem;
+    left:   6.57rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.27rem;
+    left:   6.81rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    1.27rem;
+    left:   7.05rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_star {
+    position: absolute;
+    top:    0.97rem;
+    left:   7.05rem;
+    height: 0.21rem;
+    width:  0.71rem;
+    background: url(../imgs/soft-ui-kit_star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    0.97rem;
+    left:   6.57rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    0.97rem;
+    left:   6.81rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_star {
+    position: absolute;
+    top:    0.67rem;
+    left:   6.81rem;
+    height: 0.21rem;
+    width:  0.95rem;
+    background: url(../imgs/soft-ui-kit_star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dark star {
+    position: absolute;
+    top:    0.67rem;
+    left:   6.57rem;
+    height: 0.21rem;
+    width:  0.23rem;
+    background: url(../imgs/soft-ui-kit_dark star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_star {
+    position: absolute;
+    top:    0.37rem;
+    left:   6.57rem;
+    height: 0.21rem;
+    width:  1.19rem;
+    background: url(../imgs/soft-ui-kit_star.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_select back {
+    position: absolute;
+    top:    3.98rem;
+    left:   3.17rem;
+    height: 1.46rem;
+    width:  1.62rem;
+    background: url(../imgs/soft-ui-kit_select back.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_divides {
+    position: absolute;
+    top:    4.39rem;
+    left:   3.21rem;
+    height: 0.71rem;
+    width:  1.58rem;
+    background: url(../imgs/soft-ui-kit_divides.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_select left copy 2 {
+    position: absolute;
+    top:    3.66rem;
+    left:   3.16rem;
+    height: 0.36rem;
+    width:  1.29rem;
+    background: url(../imgs/soft-ui-kit_select left copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_select right copy {
+    position: absolute;
+    top:    3.66rem;
+    left:   4.44rem;
+    height: 0.36rem;
+    width:  0.34rem;
+    background: url(../imgs/soft-ui-kit_select right copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_arrow copy 2 {
+    position: absolute;
+    top:    3.84rem;
+    left:   4.56rem;
+    height: 0.09rem;
+    width:  0.16rem;
+    background: url(../imgs/soft-ui-kit_arrow copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Make a choice {
+    position: absolute;
+    top:    3.82rem;
+    left:   3.3rem;
+    height: 0.11rem;
+    width:  0.84rem;
+    background: url(../imgs/soft-ui-kit_Make a choice.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Option Number 1 Option Number 2 Option Number 3 Option Number 4 {
+    position: absolute;
+    top:    4.16rem;
+    left:   3.3rem;
+    height: 1.2rem;
+    width:  0.99rem;
+    background: url(../imgs/soft-ui-kit_Option Number 1 Option Number 2 Option Number 3 Option Number 4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_select left {
+    position: absolute;
+    top:    3.21rem;
+    left:   3.16rem;
+    height: 0.36rem;
+    width:  1.29rem;
+    background: url(../imgs/soft-ui-kit_select left.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_select right {
+    position: absolute;
+    top:    3.21rem;
+    left:   4.44rem;
+    height: 0.36rem;
+    width:  0.34rem;
+    background: url(../imgs/soft-ui-kit_select right.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_arrow {
+    position: absolute;
+    top:    3.39rem;
+    left:   4.56rem;
+    height: 0.09rem;
+    width:  0.16rem;
+    background: url(../imgs/soft-ui-kit_arrow.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Make a choice {
+    position: absolute;
+    top:    3.37rem;
+    left:   3.3rem;
+    height: 0.11rem;
+    width:  0.84rem;
+    background: url(../imgs/soft-ui-kit_Make a choice.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_track {
+    position: absolute;
+    top:    2.48rem;
+    left:   4.05rem;
+    height: 0.36rem;
+    width:  0.74rem;
+    background: url(../imgs/soft-ui-kit_track.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button copy 2 {
+    position: absolute;
+    top:    2.47rem;
+    left:   4.42rem;
+    height: 0.34rem;
+    width:  0.34rem;
+    background: url(../imgs/soft-ui-kit_button copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_ON {
+    position: absolute;
+    top:    2.61rem;
+    left:   4.18rem;
+    height: 0.12rem;
+    width:  0.18rem;
+    background: url(../imgs/soft-ui-kit_ON.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_track copy {
+    position: absolute;
+    top:    2.48rem;
+    left:   3.21rem;
+    height: 0.36rem;
+    width:  0.74rem;
+    background: url(../imgs/soft-ui-kit_track copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button copy 3 {
+    position: absolute;
+    top:    2.47rem;
+    left:   3.2rem;
+    height: 0.34rem;
+    width:  0.34rem;
+    background: url(../imgs/soft-ui-kit_button copy 3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_OFF {
+    position: absolute;
+    top:    2.61rem;
+    left:   3.61rem;
+    height: 0.12rem;
+    width:  0.25rem;
+    background: url(../imgs/soft-ui-kit_OFF.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_circle copy {
+    position: absolute;
+    top:    1.94rem;
+    left:   5.13rem;
+    height: 0.17rem;
+    width:  0.17rem;
+    background: url(../imgs/soft-ui-kit_circle copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_dot {
+    position: absolute;
+    top:    2.01rem;
+    left:   5.2rem;
+    height: 0.1rem;
+    width:  0.09rem;
+    background: url(../imgs/soft-ui-kit_dot.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Radio button {
+    position: absolute;
+    top:    2.01rem;
+    left:   5.42rem;
+    height: 0.1rem;
+    width:  0.73rem;
+    background: url(../imgs/soft-ui-kit_Radio button.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_circle {
+    position: absolute;
+    top:    1.64rem;
+    left:   5.13rem;
+    height: 0.17rem;
+    width:  0.17rem;
+    background: url(../imgs/soft-ui-kit_circle.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Radio button {
+    position: absolute;
+    top:    1.71rem;
+    left:   5.42rem;
+    height: 0.1rem;
+    width:  0.73rem;
+    background: url(../imgs/soft-ui-kit_Radio button.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_square copy {
+    position: absolute;
+    top:    1.94rem;
+    left:   3.89rem;
+    height: 0.17rem;
+    width:  0.17rem;
+    background: url(../imgs/soft-ui-kit_square copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_check copy {
+    position: absolute;
+    top:    1.94rem;
+    left:   3.91rem;
+    height: 0.15rem;
+    width:  0.19rem;
+    background: url(../imgs/soft-ui-kit_check copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Checkbox {
+    position: absolute;
+    top:    2.01rem;
+    left:   4.18rem;
+    height: 0.1rem;
+    width:  0.58rem;
+    background: url(../imgs/soft-ui-kit_Checkbox.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_square {
+    position: absolute;
+    top:    1.64rem;
+    left:   3.89rem;
+    height: 0.17rem;
+    width:  0.17rem;
+    background: url(../imgs/soft-ui-kit_square.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Checkbox {
+    position: absolute;
+    top:    1.71rem;
+    left:   4.18rem;
+    height: 0.1rem;
+    width:  0.58rem;
+    background: url(../imgs/soft-ui-kit_Checkbox.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_tag copy 6 {
+    position: absolute;
+    top:    0.83rem;
+    left:   4.75rem;
+    height: 0.36rem;
+    width:  1.02rem;
+    background: url(../imgs/soft-ui-kit_tag copy 6.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Logo {
+    position: absolute;
+    top:    0.99rem;
+    left:   5.03rem;
+    height: 0.14rem;
+    width:  0.29rem;
+    background: url(../imgs/soft-ui-kit_Logo.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_count copy 3 {
+    position: absolute;
+    top:    0.94rem;
+    left:   5.41rem;
+    height: 0.21rem;
+    width:  0.28rem;
+    background: url(../imgs/soft-ui-kit_count copy 3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_11 {
+    position: absolute;
+    top:    0.98rem;
+    left:   5.48rem;
+    height: 0.11rem;
+    width:  0.12rem;
+    background: url(../imgs/soft-ui-kit_11.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_tag copy 4 {
+    position: absolute;
+    top:    0.37rem;
+    left:   4.6rem;
+    height: 0.36rem;
+    width:  1.51rem;
+    background: url(../imgs/soft-ui-kit_tag copy 4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Development {
+    position: absolute;
+    top:    0.53rem;
+    left:   4.88rem;
+    height: 0.13rem;
+    width:  0.77rem;
+    background: url(../imgs/soft-ui-kit_Development.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_count copy 2 {
+    position: absolute;
+    top:    0.48rem;
+    left:   5.75rem;
+    height: 0.21rem;
+    width:  0.28rem;
+    background: url(../imgs/soft-ui-kit_count copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_59 {
+    position: absolute;
+    top:    0.52rem;
+    left:   5.82rem;
+    height: 0.11rem;
+    width:  0.14rem;
+    background: url(../imgs/soft-ui-kit_59.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_tag copy 2 {
+    position: absolute;
+    top:    0.83rem;
+    left:   3.51rem;
+    height: 0.36rem;
+    width:  1.14rem;
+    background: url(../imgs/soft-ui-kit_tag copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Design {
+    position: absolute;
+    top:    0.99rem;
+    left:   3.79rem;
+    height: 0.14rem;
+    width:  0.4rem;
+    background: url(../imgs/soft-ui-kit_Design.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_count copy {
+    position: absolute;
+    top:    0.94rem;
+    left:   4.29rem;
+    height: 0.21rem;
+    width:  0.28rem;
+    background: url(../imgs/soft-ui-kit_count copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_48 {
+    position: absolute;
+    top:    0.98rem;
+    left:   4.36rem;
+    height: 0.11rem;
+    width:  0.14rem;
+    background: url(../imgs/soft-ui-kit_48.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_tag {
+    position: absolute;
+    top:    0.37rem;
+    left:   3.51rem;
+    height: 0.36rem;
+    width:  0.99rem;
+    background: url(../imgs/soft-ui-kit_tag.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_CSS {
+    position: absolute;
+    top:    0.52rem;
+    left:   3.79rem;
+    height: 0.12rem;
+    width:  0.26rem;
+    background: url(../imgs/soft-ui-kit_CSS.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_count {
+    position: absolute;
+    top:    0.48rem;
+    left:   4.14rem;
+    height: 0.21rem;
+    width:  0.28rem;
+    background: url(../imgs/soft-ui-kit_count.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_23 {
+    position: absolute;
+    top:    0.52rem;
+    left:   4.21rem;
+    height: 0.11rem;
+    width:  0.14rem;
+    background: url(../imgs/soft-ui-kit_23.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_backing copy 2 {
+    position: absolute;
+    top:    5.51rem;
+    left:   0.38rem;
+    height: 0.48rem;
+    width:  2.39rem;
+    background: url(../imgs/soft-ui-kit_backing copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_circle copy 3 {
+    position: absolute;
+    top:    5.64rem;
+    left:   0.51rem;
+    height: 0.27rem;
+    width:  0.26rem;
+    background: url(../imgs/soft-ui-kit_circle copy 3.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_icon copy {
+    position: absolute;
+    top:    5.71rem;
+    left:   0.56rem;
+    height: 0.13rem;
+    width:  0.16rem;
+    background: url(../imgs/soft-ui-kit_icon copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_This is a success message. {
+    position: absolute;
+    top:    5.72rem;
+    left:   0.86rem;
+    height: 0.14rem;
+    width:  1.59rem;
+    background: url(../imgs/soft-ui-kit_This is a success message..png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_backing copy {
+    position: absolute;
+    top:    4.93rem;
+    left:   0.38rem;
+    height: 0.48rem;
+    width:  2.39rem;
+    background: url(../imgs/soft-ui-kit_backing copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_circle copy 2 {
+    position: absolute;
+    top:    5.06rem;
+    left:   0.51rem;
+    height: 0.27rem;
+    width:  0.26rem;
+    background: url(../imgs/soft-ui-kit_circle copy 2.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_icon {
+    position: absolute;
+    top:    5.11rem;
+    left:   0.62rem;
+    height: 0.17rem;
+    width:  0.04rem;
+    background: url(../imgs/soft-ui-kit_icon.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_This is an alert message. {
+    position: absolute;
+    top:    5.14rem;
+    left:   0.86rem;
+    height: 0.14rem;
+    width:  1.45rem;
+    background: url(../imgs/soft-ui-kit_This is an alert message..png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_backing {
+    position: absolute;
+    top:    4.35rem;
+    left:   0.38rem;
+    height: 0.48rem;
+    width:  2.39rem;
+    background: url(../imgs/soft-ui-kit_backing.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_circle {
+    position: absolute;
+    top:    4.48rem;
+    left:   0.51rem;
+    height: 0.27rem;
+    width:  0.26rem;
+    background: url(../imgs/soft-ui-kit_circle.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_icon {
+    position: absolute;
+    top:    4.55rem;
+    left:   0.58rem;
+    height: 0.13rem;
+    width:  0.12rem;
+    background: url(../imgs/soft-ui-kit_icon.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_This is an error message. {
+    position: absolute;
+    top:    4.56rem;
+    left:   0.86rem;
+    height: 0.14rem;
+    width:  1.47rem;
+    background: url(../imgs/soft-ui-kit_This is an error message..png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_tooltip {
+    position: absolute;
+    top:    3.02rem;
+    left:   0.38rem;
+    height: 1.03rem;
+    width:  2.39rem;
+    background: url(../imgs/soft-ui-kit_tooltip.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Tooltip. Vestibulum mollis mauris enim. Morbi euismod magna ac  {
+    position: absolute;
+    top:    3.18rem;
+    left:   0.52rem;
+    height: 0.66rem;
+    width:  2.1rem;
+    background: url(../imgs/soft-ui-kit_Tooltip. Vestibulum mollis mauris enim. Morbi euismod magna ac .png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button down {
+    position: absolute;
+    top:    2.38rem;
+    left:   1.31rem;
+    height: 0.36rem;
+    width:  0.92rem;
+    background: url(../imgs/soft-ui-kit_button down.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Albums {
+    position: absolute;
+    top:    2.51rem;
+    left:   1.53rem;
+    height: 0.11rem;
+    width:  0.48rem;
+    background: url(../imgs/soft-ui-kit_Albums.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button up {
+    position: absolute;
+    top:    2.35rem;
+    left:   0.37rem;
+    height: 0.36rem;
+    width:  0.92rem;
+    background: url(../imgs/soft-ui-kit_button up.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Artists {
+    position: absolute;
+    top:    2.52rem;
+    left:   0.66rem;
+    height: 0.11rem;
+    width:  0.37rem;
+    background: url(../imgs/soft-ui-kit_Artists.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button copy 4 {
+    position: absolute;
+    top:    1.71rem;
+    left:   2.48rem;
+    height: 0.36rem;
+    width:  0.94rem;
+    background: url(../imgs/soft-ui-kit_button copy 4.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Button  {
+    position: absolute;
+    top:    1.85rem;
+    left:   2.74rem;
+    height: 0.11rem;
+    width:  0.41rem;
+    background: url(../imgs/soft-ui-kit_Button .png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button copy {
+    position: absolute;
+    top:    1.69rem;
+    left:   1.41rem;
+    height: 0.36rem;
+    width:  0.94rem;
+    background: url(../imgs/soft-ui-kit_button copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Button copy {
+    position: absolute;
+    top:    1.86rem;
+    left:   1.72rem;
+    height: 0.11rem;
+    width:  0.37rem;
+    background: url(../imgs/soft-ui-kit_Button copy.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_button {
+    position: absolute;
+    top:    1.69rem;
+    left:   0.37rem;
+    height: 0.36rem;
+    width:  0.94rem;
+    background: url(../imgs/soft-ui-kit_button.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Button {
+    position: absolute;
+    top:    1.86rem;
+    left:   0.68rem;
+    height: 0.11rem;
+    width:  0.37rem;
+    background: url(../imgs/soft-ui-kit_Button.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_backing {
+    position: absolute;
+    top:    1.03rem;
+    left:   0.37rem;
+    height: 0.36rem;
+    width:  2.64rem;
+    background: url(../imgs/soft-ui-kit_backing.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_input {
+    position: absolute;
+    top:    1.11rem;
+    left:   0.45rem;
+    height: 0.27rem;
+    width:  2.18rem;
+    background: url(../imgs/soft-ui-kit_input.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_icon {
+    position: absolute;
+    top:    1.16rem;
+    left:   2.74rem;
+    height: 0.17rem;
+    width:  0.16rem;
+    background: url(../imgs/soft-ui-kit_icon.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_Search {
+    position: absolute;
+    top:    1.19rem;
+    left:   0.6rem;
+    height: 0.12rem;
+    width:  0.43rem;
+    background: url(../imgs/soft-ui-kit_Search.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_box {
+    position: absolute;
+    top:    0.37rem;
+    left:   0.37rem;
+    height: 0.36rem;
+    width:  2.64rem;
+    background: url(../imgs/soft-ui-kit_box.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_loading track {
+    position: absolute;
+    top:    0.45rem;
+    left:   0.45rem;
+    height: 0.27rem;
+    width:  2.18rem;
+    background: url(../imgs/soft-ui-kit_loading track.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_loading bar {
+    position: absolute;
+    top:    0.43rem;
+    left:   0.43rem;
+    height: 0.24rem;
+    width:  0.85rem;
+    background: url(../imgs/soft-ui-kit_loading bar.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.softuikit_37% {
+    position: absolute;
+    top:    0.53rem;
+    left:   2.7rem;
+    height: 0.12rem;
+    width:  0.26rem;
+    background: url(../imgs/soft-ui-kit_37%.png) no-repeat;
+    background-size: 100% 100%;
+}
