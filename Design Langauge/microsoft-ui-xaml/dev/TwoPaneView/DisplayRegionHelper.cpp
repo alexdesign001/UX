@@ -1,0 +1,155 @@
+﻿// Copyright (c) Microsoft Corporation. All rights reserved.
+// Licensed under the MIT License. See LICENSE in the project root for license information.
+
+#include "pch.h"
+#include "common.h"
+#include "SharedHelpers.h"
+#include "Vector.h"
+#include "DisplayRegionHelper.h"
+#include "LifetimeHandler.h"
+
+/* static */
+DisplayRegionHelperInfo DisplayRegionHelper::GetRegionInfo()
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+
+    DisplayRegionHelperInfo info;
+    info.RegionCount = 1;
+    info.Mode = winrt::TwoPaneViewMode::SinglePane;
+
+    if (instance->m_simulateDisplayRegions)
+    {
+        // Create fake rectangles for test app
+        if (instance->m_simulateMode == winrt::TwoPaneViewMode::Wide)
+        {
+            info.RegionCount = 2;
+            info.Regions[0] = m_simulateWide0;
+            info.Regions[1] = m_simulateWide1;
+            info.Mode = winrt::TwoPaneViewMode::Wide;
+        }
+        else if (instance->m_simulateMode == winrt::TwoPaneViewMode::Tall)
+        {
+            info.RegionCount = 2;
+            info.Regions[0] = m_simulateTall0;
+            info.Regions[1] = m_simulateTall1;
+            info.Mode = winrt::TwoPaneViewMode::Tall;
+        }
+        else
+        {
+            info.RegionCount = 1;
+            info.Regions[0] = m_simulateWide0;
+        }
+    }
+    else if (SharedHelpers::IsApplicationViewGetDisplayRegionsAvailable())
+    {
+        // ApplicationView::GetForCurrentView throws on failure; in that case we just won't do anything.
+        winrt::ApplicationView view{ nullptr };
+        try
+        {
+            view = winrt::ApplicationView::GetForCurrentView();
+        } catch(...) {}
+
+        // Verify that the window is Tiled
+        if (view)
+        {
+            auto regions = view.GetDisplayRegions();
+            info.RegionCount = std::min(regions.Size(), c_maxRegions);
+
+            // More than one region
+            if (info.RegionCount == 2)
+            {
+                winrt::Rect windowRect = WindowRect();
+
+                if (windowRect.Width > windowRect.Height)
+                {
+                    info.Mode = winrt::TwoPaneViewMode::Wide;
+                    float width = windowRect.Width / 2;
+                    info.Regions[0] = { 0, 0, width, windowRect.Height };
+                    info.Regions[1] = { width, 0, width, windowRect.Height };
+                }
+                else
+                {
+                    info.Mode = winrt::TwoPaneViewMode::Tall;
+                    float height = windowRect.Height / 2;
+                    info.Regions[0] = { 0, 0, windowRect.Width, height };
+                    info.Regions[1] = { 0, height, windowRect.Width, height };
+                }
+            }
+        }
+    }
+
+    return info;
+}
+
+/* static */
+winrt::UIElement DisplayRegionHelper::WindowElement()
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+
+    if (instance->m_simulateDisplayRegions)
+    {
+        // Instead of returning the actual window, find the SimulatedWindow element
+        winrt::UIElement window = nullptr;
+
+        if (auto fe = winrt::Window::Current().Content().as<winrt::FrameworkElement>())
+        {
+            window = SharedHelpers::FindInVisualTreeByName(fe, L"SimulatedWindow");
+        }
+
+        return window;
+    }
+    else
+    {
+        return winrt::Window::Current().Content();
+    }
+}
+
+/* static */
+winrt::Rect DisplayRegionHelper::WindowRect()
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+
+    if (instance->m_simulateDisplayRegions)
+    {
+        // Return the bounds of the simulated window
+        winrt::FrameworkElement window = DisplayRegionHelper::WindowElement().as<winrt::FrameworkElement>();
+        winrt::Rect rc = {
+            0, 0,
+            (float)window.ActualWidth(),
+            (float)window.ActualHeight() };
+        return rc;
+    }
+    else
+    {
+        return winrt::Window::Current().Bounds();
+    }
+}
+
+/* static */
+void DisplayRegionHelper::SimulateDisplayRegions(bool value)
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+    instance->m_simulateDisplayRegions = value;
+}
+
+/* static */
+bool DisplayRegionHelper::SimulateDisplayRegions()
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+    return instance->m_simulateDisplayRegions;
+}
+
+/* static */
+void DisplayRegionHelper::SimulateMode(winrt::TwoPaneViewMode value)
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+    instance->m_simulateMode = value;
+}
+
+/* static */
+winrt::TwoPaneViewMode DisplayRegionHelper::SimulateMode()
+{
+    auto instance = LifetimeHandler::GetDisplayRegionHelperInstance();
+    return instance->m_simulateMode;
+}
+
