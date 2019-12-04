@@ -1,0 +1,69 @@
+/**
+ * @page page_intro Introduction
+ *
+ *
+ * @section sec_intro Introduction
+ *
+ * mCtrl is a library providing set of additional user interface controls for
+ * Windows, intended to be complementary to standard controls from @c
+ * USER32.DLL and @c COMCTL32.DLL.
+ *
+ *
+ * @section sec_sysreq System Requirements and Compatibility Notes
+ *
+ * @c MCTRL.DLL is aimed to MS Windows 2000 and newer (i.e. MS Windows 2000,
+ * MS Windows XP, MS Windows Server 2003, MS Windows Vista, MS Windows Server
+ * 2008 and MS Windows 7), both 32 and 64-bit versions.
+ *
+ *
+ * @section sec_features Features
+ *
+ * - API resembles the standard Windows controls. I.e. the API of controls
+ *   is based on sending messages via @c SendMessage().
+ * - mCtrl uses internally Unicode strings, but the API follows the Win32
+ *   Unicode/ANSI duality. I.e. if a message or structure uses strings, there
+ *   are usually two flavors of the message or structure. Unicode flavor
+ *   uses the suffix "W", while ANSI uses suffix "A". Public headers offer
+ *   Unicode/ANSI resolution name which is defined to be one or other,
+ *   according to as the preprocessor macro @c UNICODE is defined.
+ * - Of course mCtrl attempts to provide consistent look and feel of the
+ *   controls with standard Windows GUI controls. This includes support
+ *   for XP theming, also known as
+ *   <a href="http://msdn.microsoft.com/en-us/library/bb773187%28v=vs.85%29.aspx">
+ *   Visual Styles</a>.
+ * - mCtrl does not use any user-visible strings, hence it is language and
+ *   locale neutral.
+ *
+ * These topics are more closely covered in @ref page_design.
+ *
+ *
+ * @section sec_using Using mCtrl
+ *
+ * Using mCtrl is as easy as of any other library. Include the relevant
+ * public headers (in the downloaded packages under <tt>include/mCtrl</tt>.
+ * Within mCtrl, each GUI control or other module has its own header file.
+ *
+ * Note that to minimize the chance of filename clashes you should instruct
+ * your C compiler to search for include files to <tt>include</tt> directory
+ * and then specify the mCtrl subdirectory within the include directives.
+ *
+ * @code
+ * #include <mCtrl/some_header.h>
+ * @endcode
+ *
+ * Alternatively, there is also all-in-one header, which includes all mCtrl
+ * public headers.
+ *
+ * @code
+ * #include <mCtrl.h>
+ * @endcode
+ *
+ * Finally, link with the appropriate import library. Import libraries live
+ * in subdirectory @c lib or @c lib64 (for 32-bit or 64-bit binaries
+ * respectively). In both directories, thw following import libs can be found:
+ * - @c libmctrl.a intended for gcc-based toolchains (e.g. mingw).
+ * - @c mCtrl.lib intended for MS Visual Studio and Microsoft C compiler.
+ *
+ * Of course you have then distribute your applications with @c MCTRL.DLL,
+ * which is located in subdirectory @c bin or @c bin64 respectively.
+ */

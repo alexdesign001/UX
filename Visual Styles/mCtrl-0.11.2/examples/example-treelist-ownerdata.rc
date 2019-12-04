@@ -1,0 +1,22 @@
+/*
+ * This file contains example code for mCtrl library. Code of this example
+ * (but not the library itself) has been released into the public domain.
+ */
+
+#include <windows.h>
+#include "example-treelist-ownerdata.h"
+
+
+LANGUAGE LANG_NEUTRAL, SUBLANG_NEUTRAL
+
+/* Manifest enabling XP theme on Win XP */
+1 RT_MANIFEST res/manifest.xml
+
+/* Application icon */
+2 ICON res/app.ico
+
+
+/* Icons used in the treelist */
+IDI_REG_KEY       ICON res/folder.ico
+IDI_REG_VALUE_STR ICON res/string.ico
+IDI_REG_VALUE_BIN ICON res/binary.ico

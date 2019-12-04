@@ -1,0 +1,28 @@
+/build/
+/dist/
+
+/Data/
+/Source/packages/
+
+obj/
+
+# Visual Studio
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.vspscc
+*.vssscc
+*.aps
+*.cso
+ipch/
+.vs/
+
+# VC
+*.pch
+*.tlb
+*.tlh
+*.sbr
+*.ilk
+*.log
+*.lib

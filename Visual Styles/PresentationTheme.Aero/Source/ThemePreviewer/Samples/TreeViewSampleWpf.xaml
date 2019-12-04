@@ -1,0 +1,22 @@
+<UserControl
+    x:Class="ThemePreviewer.Samples.TreeViewSampleWpf"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:aero="clr-namespace:PresentationTheme.Aero;assembly=PresentationTheme.Aero"
+    mc:Ignorable="d"
+    d:DesignHeight="500"
+    d:DesignWidth="300">
+  <Grid>
+    <Grid.RowDefinitions>
+      <RowDefinition/>
+      <RowDefinition/>
+    </Grid.RowDefinitions>
+    <TreeView x:Name="treeView1" Margin="3"
+              aero:TreeViewService.FullRowSelect="True"/>
+    <TreeView x:Name="treeView2" Margin="3" Grid.Row="1"
+              aero:TreeViewService.FullRowSelect="True"
+              aero:ThemeOptions.UseExplorerStyle="True"/>
+  </Grid>
+</UserControl>

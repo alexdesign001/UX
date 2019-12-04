@@ -1,0 +1,32 @@
+<UserControl x:Class="ThemePreviewer.Samples.DataGridSampleWpf"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:samples="clr-namespace:ThemePreviewer.Samples"
+             xmlns:themePreviewer="clr-namespace:ThemePreviewer"
+             mc:Ignorable="d"
+             d:DataContext="{d:DesignInstance {x:Type samples:DataGridSampleWpf}}"
+             d:DesignWidth="300"
+             d:DesignHeight="300">
+  <Grid>
+    <DataGrid x:Name="dataGrid"
+              ItemsSource="{Binding Items}"
+              AutoGenerateColumns="False"
+              RowDetailsVisibilityMode="Collapsed"
+              SelectionUnit="CellOrRowHeader">
+      <DataGrid.Columns>
+        <DataGridCheckBoxColumn Binding="{Binding Enabled}" Width="20"/>
+        <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="75"/>
+        <DataGridTextColumn Header="Type" Binding="{Binding Type}" Width="50"/>
+        <DataGridTextColumn Header="Size" Binding="{Binding Size}" Width="75"/>
+        <DataGridTextColumn Header="LastChanged" Binding="{Binding LastChanged}" Width="200"/>
+      </DataGrid.Columns>
+      <DataGrid.RowDetailsTemplate>
+        <DataTemplate DataType="{x:Type themePreviewer:Item}">
+          <TextBlock Text="{Binding Name}"/>
+        </DataTemplate>
+      </DataGrid.RowDetailsTemplate>
+    </DataGrid>
+  </Grid>
+</UserControl>

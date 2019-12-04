@@ -1,0 +1,33 @@
+# YAML definition for Appveyor.com continuous integration.
+# See http://www.appveyor.com/docs/appveyor-yml
+
+version: '{branch}-{build}'
+
+before_build:
+  - 'cmake --version'
+  - 'if "%PLATFORM%"=="x64" cmake -G "Visual Studio 12 Win64"'
+  - 'if not "%PLATFORM%"=="x64" cmake -G "Visual Studio 12"'
+
+build:
+  project: mCtrl.sln
+  verbosity: minimal
+
+after_build:
+  - '%CONFIGURATION%\test-build.exe'
+
+skip_tags: true
+
+os: Windows Server 2012 R2
+
+configuration:
+  - Debug
+  - Release
+
+platform:
+  - x64    # 64-bit build
+  - win32  # 32-bit build
+
+artifacts:
+  - path: $(configuration)/*.dll
+  - path: $(configuration)/*.lib
+  - path: $(configuration)/*.exe

@@ -1,0 +1,62 @@
+/**
+ * @mainpage
+ *
+ * mCtrl is @c C open source library for MS Windows, providing a set of user
+ * interface controls, that complement the standard set as offered by @c
+ * USER32.DLL and @c COMCTL32.DLL libraries.
+ *
+ * Please check project homepage http://mctrl.org for newer versions and more
+ * actual information.
+ *
+ *
+ * @section sec_license License
+ *
+ * This library is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation; either version 2.1 of the License, or
+ * (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful, but
+ * <b>without any warranty</b>; without even the implied warranty of
+ * <b>merchantability</b> or <b>fitness for a particular purpose</b>.  See the
+ * <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html">
+ * GNU Lesser General Public License</a> for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ * Boston, MA 02110-1301 USA
+ *
+ *
+ * @section sec_toc Table of Contents
+ *
+ * @subsection toc_general General Design
+ * - @ref page_intro
+ * - @ref page_design
+ * - @ref page_debug
+ *
+ * @subsection toc_controls Control Reference
+ * - @ref mCtrl/button.h - Enhanced button control
+ * - @ref mCtrl/chart.h - Chart control
+ * - @ref mCtrl/expand.h - Expand/collapse control
+ * - @ref mCtrl/grid.h - Grid control
+ * - @ref mCtrl/html.h - HTML control
+ * - @ref mCtrl/imgview.h - Image view control
+ * - @ref mCtrl/menubar.h - Menu bar control
+ * - @ref mCtrl/mditab.h - MDI tab control
+ * - @ref mCtrl/treelist.h - Tree-list view control
+ *
+ * @subsection toc_data Control Data Models
+ * - @ref mCtrl/table.h - Table (data model for the grid control)
+ *
+ * @subsection toc_util Utility Headers
+ * - @ref mctrl.h - All-in-one header
+ * - @ref mCtrl/dialog.h - Dialog functions
+ * - @ref mCtrl/theme.h - Theme wrapper functions
+ * - @ref mCtrl/version.h - Retrieving mCtrl version
+ *
+ * @subsection toc_misc Miscellaneous Headers
+ * (Do not include these directly.)
+ * - @ref mCtrl/_defs.h - Miscellaneous macros
+ * - @ref mCtrl/_common.h - Common constants and types
+ */

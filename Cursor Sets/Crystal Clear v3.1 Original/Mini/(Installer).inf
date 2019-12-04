@@ -1,0 +1,53 @@
+;Crystal Clear Mini v3.1 by TheBlueGuy07
+
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, 
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%Cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%Unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+"[mini] Normal Select v3.1.ani"
+"[mini] Help Select v3.1.ani"
+"[mini] Working In Background v3.1.ani"
+"[mini] Busy v3.1.ani"
+"[mini] Precision Select v3.1.ani"
+"[mini] Text Select v3.1.ani"
+"[mini] Handwriting v3.1.ani"
+"[mini] Unavailable v3.1.ani"
+"[mini] Vertical Resize v3.1.ani"
+"[mini] Horizontal Resize v3.1.ani"
+"[mini] Diagonal Resize 1 v3.1.ani"
+"[mini] Diagonal Resize 2 v3.1.ani"
+"[mini] Move v3.1.ani"
+"[mini] Alternate Select v3.1.ani"
+"[mini] Link Select v3.1.ani"
+
+[Strings]
+CUR_DIR       	= "Cursors\Crystal Clear Mini v3.1 - Original"
+SCHEME_NAME     	= "Crystal Clear Mini v3.1 - Original"
+pointer		= "[mini] Normal Select v3.1.ani"
+help		= "[mini] Help Select v3.1.ani"
+work		= "[mini] Working In Background v3.1.ani"
+busy		= "[mini] Busy v3.1.ani"
+cross		= "[mini] Precision Select v3.1.ani"
+text		= "[mini] Text Select v3.1.ani"
+hand		= "[mini] Handwriting v3.1.ani"
+unavailiable	= "[mini] Unavailable v3.1.ani"
+vert		= "[mini] Vertical Resize v3.1.ani"
+horz		= "[mini] Horizontal Resize v3.1.ani"
+dgn1		= "[mini] Diagonal Resize 1 v3.1.ani"
+dgn2		= "[mini] Diagonal Resize 2 v3.1.ani"
+move		= "[mini] Move v3.1.ani"
+alternate		= "[mini] Alternate Select v3.1.ani"
+link		= "[mini] Link Select v3.1.ani"

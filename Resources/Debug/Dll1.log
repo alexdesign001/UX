@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+  Dll1.cpp
+Debug\Dll1.obj : fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'

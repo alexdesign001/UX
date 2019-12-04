@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{39aa1719-5642-4892-9461-368b8f815c03}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageViewCtrl.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UiHelper.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomTreeItemData.cpp" />
+    <ClCompile Include="Exporter.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="wxPropertyCategoryToolbar.cpp" />
+    <ClCompile Include="AddPropertyDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ThemeManager.cpp" />
+    <ClCompile Include="StringResourceDialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutDialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageViewCtrl.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MainWindow.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpDialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UiHelper.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDialogListener.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CustomFileDropTarget.h" />
+    <ClInclude Include="CustomTreeItemData.h" />
+    <ClInclude Include="Exporter.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="UxthemeUndocumented.h" />
+    <ClInclude Include="wxPropertyCategoryToolbar.h" />
+    <ClInclude Include="AddPropertyDialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ThemeManager.h" />
+    <ClInclude Include="StringResourceDialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="msstyleEditor.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="msbIcon.ico" />
+    <Image Include="msbIconBitmap.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="license.txt" />
+    <Text Include="attribution.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,66 @@
+<Window x:Class="ThemePreviewer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:ThemePreviewer"
+        xmlns:i="http://schemas.microsoft.com/xaml/behaviors"
+        xmlns:samples="clr-namespace:ThemePreviewer.Samples"
+        xmlns:controls="clr-namespace:ThemePreviewer.Controls"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance {x:Type local:MainWindowViewModel}, d:IsDesignTimeCreatable=False}"
+        Title="{Binding Title}"
+        TextOptions.TextFormattingMode="Display"
+        UseLayoutRounding="True"
+        Width="1300"
+        Height="701"
+        IsEnabled="{Binding IsEnabled}"
+        x:Name="Root">
+  <Window.Resources>
+    <samples:TypeFactoryConverter x:Key="TypeFactoryConverter"/>
+    <DataTemplate DataType="{x:Type local:ControlComparisonViewModel}">
+      <controls:ControlComparison
+        Label="{Binding Label}"
+        NativeSample="{Binding NativeSample, Converter={StaticResource TypeFactoryConverter}}"
+        WpfSample="{Binding WpfSample, Converter={StaticResource TypeFactoryConverter}}"/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:ProgressInfo}">
+      <Border Padding="10" Background="#EEEEEEEE" BorderThickness="1"
+              BorderBrush="#EECCCCCC" HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              MinWidth="300">
+        <StackPanel>
+          <TextBlock Text="{Binding TaskName}" Margin="0,0,0,6"/>
+          <ProgressBar IsIndeterminate="True" BorderThickness="0" Height="4"
+                       Foreground="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"
+                       Background="Transparent"/>
+        </StackPanel>
+      </Border>
+    </DataTemplate>
+  </Window.Resources>
+  <i:Interaction.Behaviors>
+    <local:ShowProgressAdornerBehavior Progress="{Binding TaskProgress}"/>
+  </i:Interaction.Behaviors>
+  <DockPanel>
+    <DockPanel.LayoutTransform>
+      <ScaleTransform ScaleX="{Binding Scale}" ScaleY="{Binding Scale}"/>
+    </DockPanel.LayoutTransform>
+    <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="0,0,0,3">
+      <Menu ItemsSource="{Binding MenuItems}"/>
+      <Slider Margin="3,1" Width="100" Value="{Binding Scale}" Minimum="1" Maximum="4" SmallChange="1" LargeChange="1"/>
+      <CheckBox Margin="3,1" IsChecked="{Binding UseLayoutRounding, ElementName=Root}">Use Layout Rounding</CheckBox>
+      <CheckBox Margin="3,1" x:Name="textFormattingFlag" IsChecked="True" Click="OnTextFormattingFlagClicked">Text Formatting: Display</CheckBox>
+      <CheckBox Margin="3,1" x:Name="animationFlag" IsThreeState="True" Click="OnAnimationFlagClicked">Animations</CheckBox>
+    </StackPanel>
+    <TabControl ItemsSource="{Binding Pages}" SelectedItem="{Binding CurrentPage}">
+      <i:Interaction.Behaviors>
+        <local:CacheTabsBehavior/>
+      </i:Interaction.Behaviors>
+      <TabControl.ItemContainerStyle>
+        <Style TargetType="TabItem">
+          <Setter Property="Header" Value="{Binding Label}"/>
+        </Style>
+      </TabControl.ItemContainerStyle>
+    </TabControl>
+  </DockPanel>
+</Window>

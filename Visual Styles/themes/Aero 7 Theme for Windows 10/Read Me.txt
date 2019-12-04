@@ -1,0 +1,49 @@
+*********************************************************************************
+*********************************************************************************
+
+"Aero 7", "Basic 7", "Aero 7 Clear" & "Aero 7 Square" Themes for Windows 10 RTM Build 10240, Build 10586 & Windows 10 Anniversary Update Build 14393 (X86)32 bit & (X64)64 bit Systems. 
+
+
+Copy "Aero 7" folder to : C:\Windows\Resources\Themes
+
+
+Now Go to Desktop Personalize & apply "Aero 7", "Basic 7", "Aero 7 Clear" or "Aero 7 Square" theme.
+
+Enjoy.
+
+-----------------------------
+-----------------------------
+
+Visual Style Name: "Aero 7"
+Author: sagorpirbd
+Release Date: 1 April 2015
+Final Release Date: 25 September 2016
+Website: http://sagorpirbd.deviantart.com/
+
+-----------------------------
+-----------------------------
+
+
+Including This Pack :
+
+--> Visual Styles/Themes.
+--> StartIsBack Styles (Aero, Basic & Aero Square).
+--> Windows 7 Start ORB Image.
+--> Original Windows 7 Wallpapers.
+--> Read Me.
+
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+
+
+(C) Copyright: Aero and all resources is a property of Microsoft Corporation. modifications were made only for editorial and customization purposes.
+
+
+
+
+
+
+
+
+
