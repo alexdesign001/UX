@@ -17,12 +17,18 @@
     <ClCompile Include="MainPage.xaml.cpp" />
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="LeakCycleTestCX.xaml.cpp" />
+    <ClCompile Include="CornerRadiusTestPage.xaml.cpp" />
+    <ClCompile Include="MenuBarTestPage.xaml.cpp" />
+    <ClCompile Include="TreeViewTestPage.xaml.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="App.xaml.h" />
     <ClInclude Include="MainPage.xaml.h" />
     <ClInclude Include="LeakCycleTestCX.xaml.h" />
+    <ClInclude Include="CornerRadiusTestPage.xaml.h" />
+    <ClInclude Include="MenuBarTestPage.xaml.h" />
+    <ClInclude Include="TreeViewTestPage.xaml.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\LockScreenLogo.scale-200.png">

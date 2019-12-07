@@ -13,8 +13,8 @@
     <AssemblyName>MUXControlsAdhocApp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">$(MuxSdkVersion)</TargetPlatformVersion>
-    <TargetPlatformMinVersion>$(MuxSdkVersion)</TargetPlatformMinVersion>
+    <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
     <!-- This needs to be RS3 for the xaml markup compiler to generate IDataTemplateComponent code -->
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <UseDotNetNativeToolchain>false</UseDotNetNativeToolchain>

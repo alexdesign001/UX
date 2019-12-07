@@ -12,6 +12,7 @@
     <AppxBundle>Never</AppxBundle>
     <AppInstallerUpdateFrequency>1</AppInstallerUpdateFrequency>
     <AppInstallerCheckForUpdateFrequency>OnApplicationRun</AppInstallerCheckForUpdateFrequency>
+    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.VS.appxmanifest" Condition="$(BuildingWithBuildExe) != 'true'">
