@@ -1,0 +1,60 @@
+
+[ToolBarIcons.Info]
+SkinName=Windows 7 jdm7dv
+SkinAuthor=Stardock Design
+AuthorEmail=stardockdesign@stardock.com
+AuthorsURL=http://www.stardockdesign.com
+SpecialNotes=Copyrighted to Stardock Design © 2006
+EditorNotes=Copyrighted to Stardock Design © 2006
+
+[ToolbarIcons.Explorer.Large]
+Image=Windows 7 jdm7dv\tool_explorer_large.tga
+
+[ToolbarIcons.Explorer.LargeHot]
+Image=Windows 7 jdm7dv\tool_explorer_large_h.tga
+
+[ToolbarIcons.Internet.Small]
+Image=Windows 7 jdm7dv\tool_net_small.tga
+
+[ToolbarIcons.Internet.SmallHot]
+Image=Windows 7 jdm7dv\tool_net_small_h.tga
+
+[ToolbarIcons.Explorer.Small]
+Image=Windows 7 jdm7dv\tool_explorer_small.tga
+
+[ToolbarIcons.Explorer.SmallHot]
+Image=Windows 7 jdm7dv\tool_explorer_small_h.tga
+
+[ToolbarIcons.Extras.Large]
+Image=Windows 7 jdm7dv\tool_extra_large.tga
+
+[ToolbarIcons.Extras.Small]
+Image=Windows 7 jdm7dv\tool_extra_small.tga
+
+[ToolbarIcons.Extras.LargeHot]
+Image=Windows 7 jdm7dv\tool_extra_large_h.tga
+
+[ToolbarIcons.Extras.SmallHot]
+Image=Windows 7 jdm7dv\tool_extra_small_h.tga
+
+[ToolbarIcons.ThrobberLarge]
+Image=Windows 7 jdm7dv\shell_throbber_large.bmp
+
+[ToolbarIcons.ThrobberMedium]
+Image=Windows 7 jdm7dv\shell_throbber_medium.bmp
+
+[ToolbarIcons.ThrobberSmall]
+Image=Windows 7 jdm7dv\shell_throbber_small.bmp
+
+[ToolbarIcons.Go]
+Image=Windows 7 jdm7dv\tool_but_go.tga
+
+[ToolbarIcons.GoHot]
+Image=Windows 7 jdm7dv\tool_but_go_h.tga
+
+[ToolbarIcons.Internet.Large]
+Image=Windows 7 jdm7dv\tool_net_large.tga
+
+[ToolbarIcons.Internet.LargeHot]
+Image=Windows 7 jdm7dv\tool_net_large_h.tga
+

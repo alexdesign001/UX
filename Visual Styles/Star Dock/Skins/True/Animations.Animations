@@ -1,0 +1,18 @@
+
+[Animations.Avis]
+ChangeAttributes=Windows 7 jdm7dv\ani_change_attributes.avi
+Copy=Windows 7 jdm7dv\ani_copy_move.avi
+DeleteFinal=Windows 7 jdm7dv\ani_delete_to_bin.avi
+DeleteToBin=Windows 7 jdm7dv\ani_delete_final.avi
+EmptyBin=Windows 7 jdm7dv\ani_empty_bin.avi
+IEDownload=Windows 7 jdm7dv\ani_ie_download.avi
+MoveFiles=Windows 7 jdm7dv\ani_copy_move.avi
+
+[Animations.Info]
+SkinName=Windows 7 jdm7dv
+SkinAuthor=Stardock Design
+AuthorEmail=stardockdesign@stardock.com
+AuthorsURL=http://www.stardockdesign.com
+SpecialNotes=Copyrighted to Stardock Design © 2006
+EditorNotes=Copyrighted to Stardock Design © 2006
+

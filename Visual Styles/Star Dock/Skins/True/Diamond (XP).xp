@@ -1,0 +1,778 @@
+
+
+[StartPanel.Menu]
+Image=Windows 7 jdm7dv\more_progs_menu.bmp
+TopHeight=3
+BottomHeight=3
+LeftWidth=25
+RightWidth=3
+ContentLeft=4
+ContentRight=1
+ContentTop=1
+ContentBottom=1
+Tile=0
+
+
+
+
+[StartPanel.PlacesList]
+Image=Windows 7 jdm7dv\sp_right_xp.tga
+ContentLeft=1
+ContentRight=10
+ContentTop=0
+ContentBottom=-40
+BottomHeight=2
+Tile=0
+TopHeight=12
+LeftWidth=2
+RightWidth=30
+Trans=1
+TextColour=10
+FocusColour=10
+TextColourOver=10
+NormalColour=10
+BackgroundEffect=10
+PerPixel=1
+PartWidth=151
+PartHeight=70
+GlyphAlpha=255
+PressedColour=0
+DisabledColour=0
+
+[StartPanel.PlacesListSeparator]
+Image=Windows 7 jdm7dv\sp_separator_right.tga
+RightWidth=12
+LeftWidth=12
+Trans=1
+Tile=3
+PerPixel=1
+Alpha=254
+TopHeight=0
+BottomHeight=0
+
+
+[StartPanel.ProgListSeparator]
+Image=Windows 7 jdm7dv\sp_separator_left.tga
+LeftWidth=12
+RightWidth=12
+Tile=1
+TopHeight=0
+BottomHeight=0
+Trans=1
+PerPixel=1
+Alpha=254
+
+
+[TaskBar.ButtonArrow]
+Image=Windows 7 jdm7dv\tray_arrow_h.tga
+Trans=1
+PerPixel=1
+LeftWidth=20
+RightWidth=0
+TopHeight=0
+BottomHeight=0
+SimpleMode=0
+MouseOver=1
+FrameCount=6
+Alpha=254
+PreMultipliedAlpha=0
+
+[TaskBar.ButtonHorz]
+Image=Windows 7 jdm7dv\taskbar_but_h.tga
+Trans=1
+PerPixel=1
+TopHeight=6
+BottomHeight=6
+LeftWidth=6
+RightWidth=6
+ContentLeft=0
+ContentRight=0
+ContentTop=4
+ContentBottom=4
+Tile=0
+TileLeft=0
+FocusPressedColour=13
+DefaultColour=13
+GroupColour=12
+NormalColour=12
+TextColour=12
+PressedColour=13
+FocusColour=12
+TextColourOver=12
+NormalFont=6
+PressedFont=8
+FocusFont=6
+GroupFont=6
+DefaultFont=8
+FocusPressedFont=8
+
+[TaskBar.ButtonVert]
+TopHeight=6
+BottomHeight=6
+LeftWidth=6
+RightWidth=6
+ContentLeft=0
+ContentRight=0
+ContentTop=4
+ContentBottom=4
+Image=Windows 7 jdm7dv\taskbar_but_v.tga
+Trans=1
+Alpha=254
+PerPixel=1
+DefaultColour=13
+FocusPressedColour=13
+GroupColour=12
+NormalColour=12
+TextColour=12
+PressedColour=13
+FocusColour=12
+TextColourOver=12
+FocusPressedFont=8
+DefaultFont=8
+GroupFont=6
+NormalFont=6
+PressedFont=8
+FocusFont=6
+TextFont=6
+
+[TaskBar.RebarHorz]
+Image=Windows 7 jdm7dv\taskbar_gripper_h.tga
+TopHeight=0
+BottomHeight=0
+RightWidth=0
+Trans=1
+Tile=1
+PerPixel=1
+LeftWidth=0
+ContentLeft=0
+ContentRight=0
+ContentTop=0
+ContentBottom=0
+Alpha=255
+NormalColour=1
+TextColour=1
+NormalFont=2
+TextFont=2
+
+[TaskBar.RebarVert]
+Image=Windows 7 jdm7dv\taskbar_gripper_v.tga
+LeftWidth=6
+RightWidth=4
+Trans=1
+PerPixel=1
+Alpha=254
+TopHeight=0
+BottomHeight=0
+ContentLeft=0
+ContentRight=0
+ContentTop=0
+ContentBottom=0
+Tile=1
+NormalFont=6
+TextFont=6
+NormalColour=12
+TextColour=12
+
+[TaskBar.SizeVert]
+Image=Windows 7 jdm7dv\taskbar_size_v.tga
+Tile=0
+LeftWidth=0
+RightWidth=0
+TopHeight=50
+BottomHeight=50
+Trans=1
+TileTop=1
+TileBottom=1
+TileRight=1
+TileLeft=1
+SmartSmallMargins=1
+PerPixel=1
+
+[TaskBar.TrayHorz]
+Image=Windows 7 jdm7dv\tray_h.tga
+Trans=1
+PerPixel=1
+TopHeight=1
+BottomHeight=1
+RightWidth=8
+LeftWidth=1
+Tile=0
+ContentLeft=23
+ContentRight=14
+ContentTop=7
+ContentBottom=5
+SmartSmallMargins=0
+
+[TaskBar.TrayVert]
+Image=Windows 7 jdm7dv\tray_v.tga
+TopHeight=38
+BottomHeight=18
+LeftWidth=25
+RightWidth=25
+Tile=0
+ContentLeft=9
+ContentRight=9
+ContentTop=37
+ContentBottom=14
+Trans=1
+PerPixel=1
+BackgroundEffect=10
+
+[TaskBar.Horz]
+Image=Windows 7 jdm7dv\taskbar_h.tga
+BottomHeight=14
+LeftWidth=25
+Trans=1
+TopHeight=15
+RightWidth=25
+PerPixel=1
+Tile=0
+BackgroundEffect=10
+BlurRoundedX=20
+BlurRoundedY=20
+BlurLeftMargin=10
+BlurRightMargin=10
+BlurBottomMargin=-20
+BlurTopMargin=
+BlurRoundedX2=20
+BlurRoundedY2=20
+BlurLeftMargin2=10
+BlurRightMargin2=10
+BlurBottomMargin2=
+BlurTopMargin2=-20
+SmartSmallMargins=1
+
+[TaskBar.Vert]
+Image=Windows 7 jdm7dv\taskbar_v.tga
+RightWidth=24
+LeftWidth=24
+Tile=0
+TopHeight=50
+BottomHeight=50
+Trans=1
+PerPixel=1
+GlyphTransMode=3
+GlyphVertAlign=2
+GlyphYShift=1
+BlurRoundedX=20
+BlurRoundedY=20
+BlurLeftMargin=0
+BlurRightMargin=-20
+BlurBottomMargin=10
+BlurTopMargin=10
+BlurRoundedX2=20
+BlurRoundedY2=20
+BlurLeftMargin2=-20
+BlurRightMargin2=0
+BlurBottomMargin2=10
+BlurTopMargin2=10
+
+[TaskBar.Clock]
+TextColour=1
+NormalColour=1
+TextFont=0
+
+[TaskBar.StartButton]
+Image=Windows 7 jdm7dv\start_button.tga
+Trans=1
+PerPixel=1
+RightWidth=0
+LeftWidth=0
+BottomHeight=0
+TopHeight=0
+LoopBackDelay=0
+ContentLeft=0
+ContentRight=0
+ContentTop=0
+ContentBottom=0
+LoopOnce=0
+OverlayAlways=1
+SimpleMode=3
+
+[TaskBar.ButtonArrowVert]
+Image=Windows 7 jdm7dv\tray_arrow_v.tga
+Trans=1
+PerPixel=1
+LeftWidth=0
+RightWidth=0
+TopHeight=0
+BottomHeight=0
+
+
+[TASKBAR.QUICKLAUNCH]
+ContentLeft=1
+ContentRight=0
+ContentTop=3
+ContentBottom=3
+Image=Windows 7 jdm7dv\quick_launch_button.tga
+MouseOver=1
+Trans=1
+PerPixel=1
+LeftWidth=6
+RightWidth=6
+TopHeight=6
+BottomHeight=6
+NormalFont=8
+TextFont=0
+PressedFont=8
+FocusFont=8
+DefaultFont=8
+MouseOverFont=0
+NormalColour=13
+TextColour=13
+PressedColour=13
+FocusColour=12
+DefaultColour=13
+MouseOverColour=1
+TextColourOver=13
+Tile=0
+DisabledFont=8
+FocusPressedFont=8
+
+[TASKBAR.QUICKLAUNCHVERT]
+ContentLeft=1
+ContentRight=0
+ContentTop=3
+ContentBottom=3
+Image=Windows 7 jdm7dv\quick_launch_button.tga
+LeftWidth=6
+RightWidth=6
+TopHeight=6
+BottomHeight=6
+Trans=1
+PerPixel=1
+NormalFont=8
+TextFont=0
+PressedFont=8
+FocusFont=8
+MouseOverFont=0
+NormalColour=13
+TextColour=13
+PressedColour=13
+FocusColour=12
+MouseOverColour=1
+TextColourOver=13
+Tile=0
+DisabledFont=8
+DefaultFont=8
+FocusPressedFont=8
+
+[TASKBAR.FLASHINGBUTTON]
+ContentBottom=4
+ContentLeft=0
+ContentRight=0
+ContentTop=4
+Tile=2
+BottomHeight=6
+LeftWidth=6
+RightWidth=6
+TopHeight=6
+Image=Windows 7 jdm7dv\taskbar_but_f.tga
+TileBottom=0
+TileLeft=0
+TileRight=0
+TileTop=0
+PerPixel=1
+Alpha=255
+Trans=1
+NormalFont=6
+TextFont=6
+PressedFont=6
+DisabledFont=6
+FocusFont=6
+DefaultFont=6
+MouseOverFont=6
+NormalColour=1
+TextColour=1
+PressedColour=1
+DisabledColour=1
+FocusColour=1
+DefaultColour=1
+MouseOverColour=1
+TextColourOver=1
+
+[TASKBANDGROUP.BACKGROUND]
+Tile=0
+BottomHeight=3
+LeftWidth=22
+RightWidth=3
+TopHeight=3
+Image=Windows 7 jdm7dv\taskbar_goup_menu.bmp
+TileBottom=0
+TileLeft=0
+TileRight=0
+TileTop=0
+ContentLeft=1
+ContentRight=1
+ContentTop=1
+ContentBottom=1
+PressedColour=0
+DisabledColour=1
+NormalFont=10
+TextFont=9
+NormalColour=2
+TextColour=2
+
+[TASKBANDGROUP.TOOLBAR]
+ContentBottom=3
+ContentLeft=3
+ContentRight=3
+ContentTop=3
+Tile=0
+BottomHeight=4
+LeftWidth=5
+RightWidth=11
+TopHeight=11
+Image=Windows 7 jdm7dv\taskbar_group_iten.bmp
+TileBottom=0
+TileLeft=0
+TileRight=0
+TileTop=0
+PerPixel=0
+Alpha=255
+Trans=1
+
+[StartPanel]
+HideShadows=1
+StartMenuExpansion=80
+StartMenuExpansion2=80
+BackgroundColour=1
+
+[StartPanel.LogonButtons]
+Image=Windows 7 jdm7dv\sp_shutdown_but_xp_icons.tga
+Trans=1
+PerPixel=1
+TopHeight=0
+BottomHeight=0
+LeftWidth=0
+RightWidth=0
+SimpleMode=0
+GlyphImage=Windows 7 jdm7dv\sp_shutdown_but_xp_icons_glyph.tga
+GlyphTransMode=3
+
+[STARTMENU.LOGONBACKGROUND]
+Image=Windows 7 jdm7dv\sp_shutdown_but_XP.tga
+Trans=1
+PerPixel=1
+LeftWidth=31
+RightWidth=17
+TopHeight=15
+BottomHeight=14
+
+[TaskBar.SizeHorz]
+Image=Windows 7 jdm7dv\taskbar_size_h.tga
+Trans=1
+Tile=0
+PerPixel=1
+LeftWidth=50
+RightWidth=50
+TopHeight=0
+BottomHeight=0
+
+[Taskbar.StartButton^Overlay]
+Image=Windows 7 jdm7dv\start_button_glow.tga
+Trans=1
+PerPixel=1
+LeftWidth=0
+RightWidth=0
+TopHeight=7
+BottomHeight=7
+ContentLeft=0
+ContentRight=0
+ContentTop=7
+ContentBottom=7
+ 
+[StartPanel.MorePrograms]
+Image=Windows 7 jdm7dv\sp_all_progs_xp.tga
+ Trans=1
+ LeftWidth=30
+ RightWidth=8
+ TopHeight=1
+ BottomHeight=6
+ ContentLeft=20
+ ContentRight=6
+ ContentTop=0
+ ContentBottom=4
+ BackgroundEffect=10
+ PerPixel=1
+ PartWidth=268
+ PartHeight=30
+ 
+PartWidthVista=268
+PartHeightVista=30
+NormalColour=0
+FocusColour=0
+PressedColour=0
+DisabledColour=0
+[StartMenu.MoreProgramsMouseOver]
+Image=Windows 7 jdm7dv\sp_all_progs_over.tga
+PerPixel=1
+Trans=1
+TopHeight=4
+BottomHeight=4
+RightWidth=4
+LeftWidth=8
+NormalColour=0
+ContentLeft=8
+[StartPanel.BottomBar]
+Image=Windows 7 jdm7dv\sp_bottom_xp.tga
+ ContentLeft=12
+ ContentRight=8
+ ContentTop=0
+ ContentBottom=7
+ TopHeight=2
+ LeftWidth=43
+ RightWidth=30
+ BottomHeight=16
+ Trans=1
+ BackgroundEffect=10
+ PerPixel=1
+ PartWidth=268
+ PartHeight=45
+ Tile=0
+ SearchX=27
+ SearchY=10
+ 
+PartWidthVista=268
+PartHeightVista=45
+SearchRightPad=4
+ 
+[StartPanel.ExpandedLeft]
+Image=Windows 7 jdm7dv\sp_left_expanded.tga
+Trans=1
+PerPixel=1
+TopHeight=15
+BottomHeight=2
+LeftWidth=30
+RightWidth=2
+NormalColour=0
+[StartPanel.ExpandedRightSide]
+Image=Windows 7 jdm7dv\sp_right_expanded.tga
+Trans=1
+PerPixel=1
+TopHeight=15
+BottomHeight=2
+LeftWidth=2
+RightWidth=30
+NormalColour=0
+ContentRight=15
+ContentTop=17
+[StartPanel.ShutdownArrow]
+Image=Windows 7 jdm7dv\sp_shutdown_but_arrow.tga
+ Trans=1
+ PerPixel=1
+ TopHeight=6
+ BottomHeight=6
+ LeftWidth=2
+ RightWidth=8
+ FrameCount=3
+GlyphImage=Windows 7 jdm7dv\sp_shutdown_but_arrow_glyph.tga
+GlyphTransMode=3
+[StartPanel.SearchModeBottom]
+Image=Windows 7 jdm7dv\sp_search_mode_middle.tga
+Trans=1
+PerPixel=1
+TopHeight=2
+BottomHeight=2
+LeftWidth=30
+RightWidth=30
+NormalColour=0
+[StartPanel.BottomBarSearch]
+Image=Windows 7 jdm7dv\sp_search_mode_bottom_left.tga
+Trans=1
+PerPixel=1
+TopHeight=8
+BottomHeight=20
+LeftWidth=30
+RightWidth=5
+NormalColour=0
+[StartPanel.BottomBarSearchRight]
+Image=Windows 7 jdm7dv\sp_search_mode_bottom_right.tga
+Trans=1
+PerPixel=1
+TopHeight=8
+BottomHeight=15
+LeftWidth=5
+RightWidth=30
+NormalColour=0
+[StartPanel.ShutdownButtons]
+Image=Windows 7 jdm7dv\sp_shutdown_but.tga
+ Trans=1
+ PerPixel=1
+ TopHeight=6
+ BottomHeight=6
+ LeftWidth=8
+ RightWidth=2
+ FrameCount=3
+ NormalColour=0
+ PressedColour=0
+ 
+[StartPanel.MoreProgramsArrow]
+Image=Windows 7 jdm7dv\sp_all_progs_arrow.tga
+ Trans=1
+ PerPixel=1
+ BottomHeight=0
+ TopHeight=0
+ LeftWidth=0
+ RightWidth=0
+ Tile=4
+ FrameCount=6
+ 
+BackgroundEffect=1
+[StartPanel.MenuItem]
+Image=Windows 7 jdm7dv\more_progs_menu_item.tga
+ TopHeight=5
+ BottomHeight=5
+ LeftWidth=6
+ RightWidth=6
+ Tile=0
+ Trans=1
+ Alpha=255
+ PerPixel=1
+ ContentLeft=0
+ ContentTop=1
+ ContentBottom=1
+ ContentRight=1
+ 
+[Taskbar.JumpListFrame]
+Image=Windows 7 jdm7dv\taskbar_jump_list_frame.tga
+Trans=1
+PerPixel=1
+TopHeight=5
+BottomHeight=5
+LeftWidth=5
+RightWidth=5
+NormalColour=0
+PressedColour=0
+[Taskbar.JumpList]
+Image=Windows 7 jdm7dv\taskbar_jump_list_top.tga
+Trans=1
+PerPixel=1
+TopHeight=6
+BottomHeight=6
+LeftWidth=6
+RightWidth=6
+NormalColour=0
+PressedColour=0
+[Taskbar.JumpListBottom]
+Image=Windows 7 jdm7dv\taskbar_jump_list_bottom.tga
+Trans=1
+PerPixel=1
+TopHeight=6
+BottomHeight=6
+LeftWidth=6
+RightWidth=6
+NormalColour=0
+PressedColour=0
+[StartPanel.SearchMode]
+Image=Windows 7 jdm7dv\sp_search_mode_top.tga
+ Trans=1
+ PerPixel=1
+ TopHeight=15
+ BottomHeight=2
+ LeftWidth=30
+ RightWidth=30
+ ContentRight=16
+ ContentLeft=20
+ ContentTop=14
+ 
+ 
+[StartPanel.UserPane]
+Image=Windows 7 jdm7dv\sp_top_xp.tga
+ TopHeight=0
+ BottomHeight=32
+ LeftWidth=43
+ RightWidth=30
+ NormalFont=11
+ ContentLeft=45
+ ContentRight=160
+ ContentTop=0
+ ContentBottom=4
+ Tile=0
+ NormalColour=16
+ Trans=1
+ TextColour=0
+ TextFont=0
+ BackgroundEffect=10
+ PerPixel=1
+ PartWidth=424
+ PartHeight=33
+ TextVertShiftNormal=7
+ TextHorzShiftNormal=36
+ HideUserPicture=1
+ TextHorzAlignNormal=1
+ TextVertAlignNormal=3
+ PartWidthVista=424
+ PartHeightVista=33
+ 
+[StartPanel.MenuItemNew]
+Image=Windows 7 jdm7dv\more_progs_menu_item_new.tga
+Trans=1
+PerPixel=1
+TopHeight=2
+BottomHeight=2
+LeftWidth=2
+RightWidth=2
+[Taskbar.PreviewClose]
+Image=Windows 7 jdm7dv\task_preview_close.tga
+Trans=1
+PerPixel=1
+[Taskbar.PreviewBackground]
+Image=Windows 7 jdm7dv\task_preview_pane.tga
+Trans=1
+PerPixel=1
+NormalColour=2
+ContentTop=3
+ContentBottom=8
+ContentLeft=6
+ContentRight=6
+TopHeight=10
+BottomHeight=10
+LeftWidth=10
+RightWidth=10
+[Taskbar.PreviewItem]
+Image=Windows 7 jdm7dv\task_preview_item.tga
+Trans=1
+PerPixel=1
+FrameCount=1
+NormalColour=0
+ContentTop=2
+ContentBottom=2
+ContentLeft=2
+ContentRight=2
+TopHeight=4
+BottomHeight=6
+RightWidth=4
+LeftWidth=4
+[StartMenu.ButtonBackground]
+Image=Windows 7 jdm7dv\sp_item.tga
+ BottomHeight=4
+ LeftWidth=4
+ RightWidth=4
+ TopHeight=4
+ Trans=1
+ PerPixel=1
+ 
+[StartPanel.ProgList]
+Image=Windows 7 jdm7dv\sp_left_xp.tga
+ ContentLeft=20
+ ContentRight=6
+ ContentTop=5
+ ContentBottom=2
+ LeftWidth=43
+ RightWidth=4
+ TopHeight=5
+ BottomHeight=2
+ Trans=1
+ BackgroundEffect=10
+ PerPixel=1
+ PartWidth=268
+ PartHeight=70
+ Tile=0
+ PartWidthVista=268
+ PartHeightVista=70
+ 
+NormalColour=0
+FocusColour=0
+PressedColour=0
+DisabledColour=0

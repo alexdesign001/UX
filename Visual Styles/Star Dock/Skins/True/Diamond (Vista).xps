@@ -1,0 +1,355 @@
+
+[ShellStyle.Back]
+BackColourR=255
+BackColourG=255
+BackColourB=255
+BackColourR2=255
+BackColourG2=255
+BackColourB2=255
+Image=Windows 7 jdm7dv\VS_back_image_2.bmp
+
+[ShellStyle.Bar]
+TextColourR=144
+TextColourG=144
+TextColourB=144
+MouseOverColourR=0
+MouseOverColourG=102
+MouseOverColourB=204
+Image=Windows 7 jdm7dv\VS_title_bar_1.bmp
+
+[ShellStyle.ControlPanel]
+BackColourR=255
+BackColourG=255
+BackColourB=255
+TitleColourR=0
+TitleColourG=102
+TitleColourB=204
+BodyColourR=41
+BodyColourG=116
+BodyColourB=46
+BodyMouseOverColourR=0
+BodyMouseOverColourG=99
+BodyMouseOverColourB=220
+Image=Windows 7 jdm7dv\shell_c_panel_img.bmp
+
+[ShellStyle.ControlPanelHeader]
+BackColourR=187
+BackColourG=230
+BackColourB=255
+BackColourR2=187
+BackColourG2=230
+BackColourB2=255
+
+[ShellStyle.ControlPanelTop]
+BackColourR=240
+BackColourG=240
+BackColourB=240
+BackColourR2=240
+BackColourG2=240
+BackColourB2=240
+
+[ShellStyle.DownArrow]
+Image=Windows 7 jdm7dv\VS_but_down_1.bmp
+Trans=1
+PerPixel=0
+
+[ShellStyle.DownArrowMouseOver]
+Image=Windows 7 jdm7dv\VS_but_down_focus_1.bmp
+PerPixel=0
+Trans=1
+
+[ShellStyle.LargeFilm]
+Image=Windows 7 jdm7dv\shell_movies_img.bmp
+
+[ShellStyle.LargeMusic]
+Image=Windows 7 jdm7dv\shell_music_img.bmp
+
+[ShellStyle.LargePicture]
+Image=Windows 7 jdm7dv\shell_pictures_img.bmp
+
+[ShellStyle.LargeSearch]
+Image=Windows 7 jdm7dv\shell_search_img.bmp
+
+[ShellStyle.NoModifyPage]
+Image=Windows 7 jdm7dv\shell_no_modify_img.bmp
+
+[ShellStyle.Pane]
+BackColourR=255
+BackColourG=255
+BackColourB=255
+BorderColourR=255
+BorderColourG=255
+BorderColourB=255
+MouseOverColourR=71
+MouseOverColourG=152
+MouseOverColourB=254
+TextColourR=0
+TextColourG=102
+TextColourB=204
+
+[ShellStyle.SmallFilm]
+Image=Windows 7 jdm7dv\VS_music_img_small.bmp
+
+[ShellStyle.SmallMusic]
+Image=Windows 7 jdm7dv\VS_music_img_small.bmp
+
+[ShellStyle.SmallPicture]
+Image=Windows 7 jdm7dv\VS_music_img_small.bmp
+
+[ShellStyle.SmallSearch]
+Image=Windows 7 jdm7dv\VS_music_img_small.bmp
+
+[ShellStyle.SpecialBar]
+TextColourR=0
+TextColourG=102
+TextColourB=204
+MouseOverColourR=0
+MouseOverColourG=0
+MouseOverColourB=0
+Image=Windows 7 jdm7dv\VS_title_bar_2.bmp
+
+[ShellStyle.SpecialDownArrow]
+Image=Windows 7 jdm7dv\VS_but_down_2.bmp
+Trans=1
+PerPixel=0
+
+[ShellStyle.SpecialDownArrowMouseOver]
+Image=Windows 7 jdm7dv\VS_but_down_focus_2.bmp
+Trans=1
+PerPixel=0
+
+[ShellStyle.SpecialPane]
+BackColourR=255
+BackColourG=255
+BackColourB=255
+BorderColourR=255
+BorderColourG=255
+BorderColourB=255
+TextColourR=0
+TextColourG=102
+TextColourB=204
+MouseOverColourR=71
+MouseOverColourG=152
+MouseOverColourB=254
+
+[ShellStyle.SpecialUpArrow]
+Image=Windows 7 jdm7dv\VS_but_up_2.bmp
+Trans=1
+PerPixel=0
+
+[ShellStyle.SpecialUpArrowMouseOver]
+Image=Windows 7 jdm7dv\VS_but_up_focus_2.bmp
+Trans=1
+PerPixel=0
+
+[ShellStyle.UpArrow]
+Image=Windows 7 jdm7dv\VS_but_up_1.bmp
+Trans=1
+PerPixel=0
+
+[ShellStyle.UpArrowMouseOver]
+Image=Windows 7 jdm7dv\VS_but_up_focus_1.bmp
+Trans=1
+PerPixel=0
+
+[ShutdownDialog.Background]
+Image=Windows 7 jdm7dv\log_off_panel.bmp
+
+[ShutdownDialog.Buttons]
+Image=Windows 7 jdm7dv\shutdown_buttons.bmp
+
+[ShutdownDialog.Flag]
+Image=Windows 7 jdm7dv\logoff_flag.bmp
+
+[LogoffDialog.Background]
+Image=Windows 7 jdm7dv\log_off_panel.bmp
+
+[LogoffDialog.Buttons]
+Image=Windows 7 jdm7dv\logoff_buttons.bmp
+
+[LogoffDialog.Flag]
+Image=Windows 7 jdm7dv\logoff_flag.bmp
+
+[ShellStyle.XML]
+
+
+[ShellStyle.ControlPanelIcon]
+Trans=1
+PerPixel=1
+Image=Windows 7 jdm7dv\shell_task_icon.tga
+
+[ShellStyle.FilmIcon]
+Image=Windows 7 jdm7dv\shell_task_icon.tga
+Trans=1
+PerPixel=1
+
+[ShellStyle.MusicIcon]
+Image=Windows 7 jdm7dv\shell_task_icon.tga
+Trans=1
+PerPixel=1
+
+[ShellStyle.SearchIcon]
+Image=Windows 7 jdm7dv\shell_task_icon.tga
+Trans=1
+PerPixel=1
+
+[ShellStyle.PictureIcon]
+Image=Windows 7 jdm7dv\shell_task_icon.tga
+Trans=1
+PerPixel=1
+
+[ShellStyle.AdditionalImage10]
+Image=Windows 7 jdm7dv\shell_music_icon.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage11]
+Image=Windows 7 jdm7dv\additional_image_11.bmp
+
+[ShellStyle.AdditionalImage12]
+Image=Windows 7 jdm7dv\shell_music_img.bmp
+
+[ShellStyle.AdditionalImage13]
+Image=Windows 7 jdm7dv\shell_pictures_icon.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage14]
+Image=Windows 7 jdm7dv\additional_image_14.bmp
+
+[ShellStyle.AdditionalImage15]
+Image=Windows 7 jdm7dv\shell_pictures_img.bmp
+
+[ShellStyle.AdditionalImage16]
+Image=Windows 7 jdm7dv\shell_search_icon.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage17]
+Image=Windows 7 jdm7dv\additional_image_17.bmp
+
+[ShellStyle.AdditionalImage18]
+Image=Windows 7 jdm7dv\shell_search_img.bmp
+
+[ShellStyle.AdditionalImage19]
+Image=Windows 7 jdm7dv\shell_movies_icon.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage20]
+Image=Windows 7 jdm7dv\additional_image_20.bmp
+
+[ShellStyle.AdditionalImage21]
+Image=Windows 7 jdm7dv\shell_movies_img.bmp
+
+[ShellStyle.AdditionalImage22]
+Image=Windows 7 jdm7dv\shell_c_panel_icon.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage25]
+Image=Windows 7 jdm7dv\shell_no_modify_img.bmp
+
+[ShellStyle.AdditionalImage26]
+Image=Windows 7 jdm7dv\shell_c_panel_img.bmp
+
+[ShellStyle.AdditionalImage100]
+Image=Windows 7 jdm7dv\VS_but_up_1.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage101]
+Image=Windows 7 jdm7dv\VS_but_up_focus_1.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage102]
+Image=Windows 7 jdm7dv\VS_but_down_1.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage103]
+Image=Windows 7 jdm7dv\VS_but_down_focus_1.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage104]
+Image=Windows 7 jdm7dv\VS_but_up_2.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage105]
+Image=Windows 7 jdm7dv\VS_but_up_focus_2.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage106]
+Image=Windows 7 jdm7dv\VS_but_down_2.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage107]
+Image=Windows 7 jdm7dv\VS_but_down_focus_2.tga
+PerPixel=1
+
+[ShellStyle.AdditionalImage110]
+Image=Windows 7 jdm7dv\VS_title_bar_2.bmp
+
+[ShellStyle.AdditionalImage112]
+Image=Windows 7 jdm7dv\VS_title_bar_1.bmp
+
+
+[ShutdownDialog.BackgroundPerPixel]
+Image=Windows 7 jdm7dv\log_off_panel_alpha.tga
+LeftWidth=20
+RightWidth=60
+TopHeight=65
+BottomHeight=50
+Trans=1
+PerPixel=1
+HideText=1
+
+[LogOffDialog.BackgroundPerPixel]
+Image=Windows 7 jdm7dv\log_off_panel_alpha.tga
+TopHeight=65
+BottomHeight=50
+LeftWidth=20
+RightWidth=60
+Trans=1
+PerPixel=1
+HideText=1
+
+[Screen.BackgroundPerPixel]
+Image=Windows 7 jdm7dv\shut_down_mask.tga
+Trans=1
+PerPixel=1
+LeftWidth=0
+RightWidth=0
+TopHeight=0
+BottomHeight=0
+Tile=0
+TileTop=1
+TileBottom=1
+TileLeft=1
+TileRight=1
+GlyphImage=Windows 7 jdm7dv\shut_down_mask_glyph.tga
+GlyphTransMode=3
+GlyphHorzAlign=0
+GlyphVertAlign=4
+GlyphXShift=0
+GlyphYShift=8
+
+[ShellStyle.Strings]
+Value1=Segoe UI
+ Value2=Segoe UI
+ Value10=600
+ Value11=700
+ Value12=400
+ Value15=8
+ Value16=12
+ Value17=15
+ Value18=20
+ Value100=0xFFFFFF
+ 
+[PleaseWait.BackgroundPerPixel]
+Image=Windows 7 jdm7dv\please_wait_panel_win7.tga
+ TextShift=-3000
+ TextShiftY=-3000
+ 
+Trans=1
+PerPixel=1
+[PleaseWait.Animation0]
+Image=Windows 7 jdm7dv\please_wait_ani_win7.nwa
+ HAlign=2
+ VAlign=2
+ YOffset=2
+ XOffset=-20
+ 

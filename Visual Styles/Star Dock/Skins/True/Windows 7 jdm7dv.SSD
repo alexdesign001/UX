@@ -1,0 +1,14 @@
+[SkinStyles]
+Number=3
+Win7Default=0
+VistaDefault=1
+XPDefault=2
+[SkinStyle0]
+Skin=Windows 7 jdm7dv.uis
+Name=Diamond
+[SkinStyle1]
+Name=Diamond (Vista)
+Skin=Windows 7 jdm7dv1.sss
+[SkinStyle2]
+Name=Diamond (XP)
+Skin=Windows 7 jdm7dv2.sss
